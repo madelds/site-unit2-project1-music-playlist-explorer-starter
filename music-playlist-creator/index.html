@@ -8,15 +8,95 @@
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
 </head>
 <body>
-    <header>
-        <!-- Your header content here -->
+
+    <header id="banner">
+        <h1>Music Playlist Explorer</h1>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="featured.html">Featured</a>
+    </div>
+
+    <main>
+        <div class="playlist-cards">
+    
+        </div>
+
+          
     </main>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="top-modal">
+            <div class="playlist-image-box">
+                <img id="playlist-image" src="./assets/img/playlist.png" width="auto" height="auto">
+            </div>
+            <div class="playlist-description">
+                <h3>Playlist Title</h3>
+                <h4>Creator Name</h4>
+            </div>
+            <div class="like-container">
+                <span class="heart">❤</span>
+                <p class="likeCount" id="likeCount">0</p>
+            </div>
+              
+        <button id="shuffle-button">Shuffle</button>
+        </div>
+        <div class="bottom-modal">
+            <div class="modal-box-1">
+                <div class="song-image-box">
+                    <img id="song-image" src="./assets/img/song.png" width="auto" height="auto">
+                </div>
+                <div class="song-description">
+                    <h4>Song Title</h4>
+                    <p>Artist Name</p>
+                    <p>Album Name</p>
+                </div>
+                <div class="timestamp">
+                    <h4>0:00</h4>
+                </div>
+            </div>
+            <div class="modal-box-2">
+                <div class="song-image-box">
+                    <img id="song-image" src="./assets/img/song.png" width="auto" height="auto">
+                </div>
+                <div class="song-description">
+                    <h4>Song Title</h4>
+                    <p>Artist Name</p>
+                    <p>Album Name</p>
+                </div>
+                <div class="timestamp">
+                    <h4>0:00</h4>
+                </div>
+            </div>
+            <div class="modal-box-3">
+                <div class="song-image-box">
+                    <img id="song-image" src="./assets/img/song.png" width="auto" height="auto">
+                </div>
+                <div class="song-description">
+                    <h4>Song Title</h4>
+                    <p>Artist Name</p>
+                    <p>Album Name</p>
+                </div>
+                <div class="timestamp">
+                    <h4>0:00</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
     <footer>
         <!-- Your footer content here -->
