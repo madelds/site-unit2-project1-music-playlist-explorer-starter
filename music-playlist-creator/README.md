@@ -1,6 +1,6 @@
 ## Unit Assignment: Music Playlist Explorer
 
-Submitted by: **NAME**
+Submitted by: **Madel Sibal**
 
 Estimated time spent: **12** hours spent in total
 
@@ -73,3 +73,6 @@ Reflecting on my project demo, I would say that my collaboration with peers went
 ### Shout out
 
 Shout out to Karina, Julia, Andy, Devarsh, Alex, and Keith!
+
+###
+(1) Fix layout of featured page
